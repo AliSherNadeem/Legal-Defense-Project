@@ -1,0 +1,86 @@
+<?php
+  include('header.php');
+ ?>
+ <section class="section-hero overlay inner-page bg-image" style="background-image: url('images/precedent16.jpg') ;" id="home-section" >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <h1 class="text-white font-weight-bold">Chatbot</h1>
+            <div class="custom-breadcrumbs">
+              <a href="index.php">Home</a> <span class="mx-2 slash">/</span>
+              <a href="#">chatbot</a> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><br><br><br>
+
+<title>Home</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+<!-- ChatBot -->
+<link rel="stylesheet" type="text/css" href="css/jquery.convform.css">
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.convform.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+
+</head>
+<body>
+<!-- ChatBot -->
+<div class="chat_icon" style="color: black; size: 20px;">
+	<i class="fa fa-comments" aria-hidden="true"></i>
+</div>
+
+<div class="chat_box">
+	<div class="my-conv-form-wrapper">
+		<form action="" method="GET" class="hidden">
+
+
+  <select data-conv-question="Hello! How can I help you We are from Legal Defense" name="category">
+
+    
+        <option value="DigitalMarketing">DOwryycasee ?</option>
+          <option value="DigitalMarketing">TaxLitigationcases ?</option>
+            <option value="DigitalMarketing">Murdercases ?</option>
+
+      </select>
+
+<input type="text" name="name" data-conv-question="Please, Enter your name">
+
+      <input type="text" data-conv-question="Hi {name}, <br> It's a pleasure to meet you." data-no-answer="true">
+
+      <input data-conv-question="Enter your e-mail" data-pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" type="email" name="email" required placeholder="What's your e-mail?">
+         <select data-conv-question="Thanku so much ask ur queries here" name="">
+
+    
+        <option value="DigitalMarketing">DOwryycasee ?</option>
+        <input type="text" name="name" data-conv-question="Dowry, which was usually referred to as having two types, was either demanded (mandatory dowry) or given as a gift to the bride by her family (discretionary dowry).The sort of dowry that needed to be paid by the bride’s side of the family to the groom, before or after the solemnization of marriage (kaniyadaan) meant that it was a “gift to the girl”, a Sanskrit word and concept that has existed in the Hindu religion according to history and paid by the bride’s family to the groom in order to support the financial status of the groom. It was mandatory because there was no specific inheritance share for girls in the Hindu undivided family system. Yet, it was still considered to be immoral to demand dowry from a bride’s family..">
+
+      <input type="text" data-conv-question="Hi {name}, <br> Dowry, which was usually referred to as having two types, was either demanded (mandatory dowry) or given as a gift to the bride by her family (discretionary dowry). The sort of dowry that needed to be paid by the bride’s side of the family to the groom, before or after the solemnization of marriage (kaniyadaan) meant that it was a “gift to the girl”, a Sanskrit word and concept that has existed in the Hindu religion according to history and paid by the bride’s family to the groom in order to support the financial status of the groom. It was mandatory because there was no specific inheritance share for girls in the Hindu undivided family system. Yet, it was still considered to be immoral to demand dowry from a bride’s family.." data-no-answer="true">
+
+        
+          <option value="DigitalMarketing">TaxLitigationcases ?</option>
+          
+            <option value="DigitalMarketing">Murdercases ?</option>
+
+      </select>    
+
+
+      
+      <select data-conv-question="Please Conform">
+        <option value="Yes">Conform</option>
+      </select>
+
+  	</form>
+	</div>
+</div>
+<!-- ChatBot end -->
+
+
+
+</body>
+</html>
